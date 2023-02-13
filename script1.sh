@@ -1,4 +1,8 @@
 #!/bin/bash
+printf "Enter A:"
+read A
+Printf "Enter B:"
+read B
 SUM=`expr $A + $B`
 SUBS=$(( B - A ))
 MUL=$[A * B]
